@@ -1,0 +1,22 @@
+{
+  "name": "mindx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch physics.json --port 5000",
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mncwabelindo/mindx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mncwabelindo/mindx/issues"
+  },
+  "homepage": "https://github.com/mncwabelindo/mindx#readme"
+}
