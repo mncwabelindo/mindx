@@ -1,15 +1,17 @@
 {
-    "paper_id": 1,
-    "country": "SOUTH AFRICA",
-    "department": "BASIC EDUCATION", 
-    "subject": "PHYSICAL SCIENCE",
-    "grade": 11,
-    "paper": "P1",
-    "publish_month": "NOVEMBER",
-    "publish_year": 2015,
-    "qualification": "NATIONAL SENIOR CERTIFICATE",
-    "marks": 150,
-    "time": "3 HOURS",
+    "exam_info": {
+        "paper_id": 1 ,
+        "country": "SOUTH AFRICA",
+        "department": "BASIC EDUCATION", 
+        "subject": "PHYSICAL SCIENCE",
+        "grade": 11,
+        "paper": "P1",
+        "publish_month": "NOVEMBER",
+        "publish_year": 2015,
+        "qualification": "NATIONAL SENIOR CERTIFICATE",
+        "marks": 150,
+        "time": "3 HOURS"
+    },
     "instructions": [
         "You may use a non-programmable calculator"
     ],
@@ -29,10 +31,10 @@
             "points": 2,
             "question": "Vector P and vector –P are acting on a common point O. The angle between the two vectors is ...",
             "options": {
-                "A": { "value": "0", "unit": "", "measure": "deg"},
-                "B": { "value": "90", "unit": "", "measure": "deg"},
-                "C": { "value": "180", "unit": "", "measure": "deg"},
-                "D": { "value": "270", "unit": "", "measure": "deg"} 
+                "A": { "value": "`\"0^\"circ` " },
+                "B": { "value": "`\"90^\"circ` " },
+                "C": { "value": "`\"180^\"circ` " },
+                "D": { "value": "`\"270^\"circ` " } 
             }
         },
         {
@@ -42,10 +44,117 @@
             "points": 2,
             "question": "The statements below refer to scalars and vectors:\n(i) Vectors can be added together but scalars cannot.\n(ii) A scalar quantity can be associated with direction.\n(iii) A vector quantity is always associated with direction.\nWhich of the statements above are TRUE?",
             "options": {
-                "A": { "value": "(i) and (ii) only", "unit": "", "measure": ""},
-                "B": { "value": "(ii) and (iii) only", "unit": "", "measure": ""},
-                "C": { "value": "(i) only", "unit": "", "measure": ""},
-                "D": { "value": "(iii) only", "unit": "", "measure": ""} 
+                "A": { "value": "(i) and (ii) only" },
+                "B": { "value": "(ii) and (iii) only" },
+                "C": { "value": "(i) only" },
+                "D": { "value": "(iii) only" } 
+            }
+        },
+        {
+            "id": 3,
+            "question_id": 1,
+            "number": "1.3",
+            "points": 2,
+            "question": "A net force, F, is applied on an object of mass m kg and causes an acceleration of a m∙s-2. When the net force, F, on the same object is doubled, the resulting acceleration, in m∙s-2, will be ...",
+            "options": {
+                "A": { "value": "a" },
+                "B": { "value": "`\"frac{3}{2}a`" },
+                "C": { "value": "2a" },
+                "D": { "value": "3a" } 
+            }
+        },
+        {
+            "id": 4,
+            "question_id": 1,
+            "number": "1.4",
+            "points": 2,
+            "question": "A person stands on a bathroom scale in a stationary elevator. The reading on the scale is 490 N. When the elevator is in motion, the reading on the scale changes to 470 N.\n\nWhich ONE of the following combinations best describes the DIRECTION OF THE MOTION and the DIRECTION OF THE ACCELERATION of the elevator during the motion?",
+            "options": {
+                "H": { "left": "DIRECTION OF THE MOTION", "right": "DIRECTION OF THE" },
+                "A": { "value1": "Upwards", "value2": "Upwards" },
+                "B": { "value1": "Downwards", "value2": "Downwards" },
+                "C": { "value1": "Upwards", "value2": "Downwards and then upwards" },
+                "D": { "value1": "Downwards", "value2": "Upwards and then downwards" } 
+            }
+        },
+        {
+            "id": 5,
+            "question_id": 1,
+            "number": "1.5",
+            "points": 2,
+            "question": "A light ray is refracted when it travels from air into water. Which ONE of the following combinations relating to the DIRECTION OF THE REFRACTED RAY and the SPEED OF THE LIGHT RAY is CORRECT?",
+            "options": {
+                "H": { "left": "DIRECTION OF THE REFRACTED RAY", "right": "SPEED OF THE LIGHT RAY" },
+                "A": { "value1": "Towards the normal", "value2": "Decreases" },
+                "B": { "value1": "Away from the normal", "value2": "Decreases" },
+                "C": { "value1": "Towards the normal", "value2": "Increases" },
+                "D": { "value1": "Away from the normal ", "value2": "Increases" } 
+            }
+        },
+        {
+            "id": 6,
+            "question_id": 1,
+            "number": "1.6",
+            "points": 2,
+            "question": "A learner hiding behind an open door of a room can hear people talking outside the room although he cannot see them. The reason for this is that ...",
+            "options": {
+                "A": { "value": "sound has a shorter wavelength than a light wave." },
+                "B": { "value": "sound has a longer wavelength than a light wave." },
+                "C": { "value": "light travels in straight lines while sound travels only around corners." },
+                "D": { "value": "the energy in a sound wave is less than the energy in a light wave." } 
+            }
+        },
+        {
+            "id": 7,
+            "question_id": 1,
+            "number": "1.7",
+            "points": 2,
+            "question": "The leaves of the electroscope in the diagram below are positively charged.\n{electroscope.png}\nWhen an object is brought close to the plate, the leaves diverge more. We can therefore conclude that the object …",
+            "options": {
+                "A": { "value": "is positively charged." },
+                "B": { "value": "is negatively charged." },
+                "C": { "value": "is not charged at all." },
+                "D": { "value": "releases positive charges." } 
+            }
+        },
+        {
+            "id": 8,
+            "question_id": 1,
+            "number": "1.8",
+            "points": 2,
+            "question": "Two charged objects repel each other with a force F when they are separated by a distance d. The distance between the charges is reduced to `\"frac{1}{3}d`.The new force, in terms of F, will now be ...",
+            "options": {
+                "A": { "value": "F" },
+                "B": { "value": "3F" },
+                "C": { "value": "6F" },
+                "D": { "value": "9F" } 
+            }
+        },
+        {
+            "id": 9,
+            "question_id": 1,
+            "number": "1.9",
+            "points": 2,
+            "question": "In the diagram below, the north pole of a bar magnet approaches end A of a solenoid.\n{solenoid.png}\nWhich ONE of the following statements about the polarity of A and the direction of the magnetic field INSIDE the solenoid is CORRECT as the NORTH POLE approaches A?",
+            "options": {
+                "H": { "left": "POLARITY OF A", "right": "DIRECTION OF FIELD IN SOLENOID" },
+                "A": { "value1": "South pole", "value2": "A to B" },
+                "B": { "value1": "North pole", "value2": "B to A" },
+                "C": { "value1": "North pole", "value2": "A to B" },
+                "D": { "value1": "South pole", "value2": "B to A" } 
+            }
+        },
+        {
+            "id": 10,
+            "question_id": 1,
+            "number": "1.10",
+            "points": 2,
+            "question": "Which ONE of the following graphs best represents the relationship between current and potential difference for a conductor which obeys Ohm's Law?",
+            "options": {
+                "A": { "value": "{1-10A.png}" },
+                "B": { "value": "{1-10B.png}" },
+                "C": { "value": "{1-10C.png}" },
+                "D": { "value": "{1-10D.png}" }  
             }
         }
     ],
@@ -66,6 +175,86 @@
             "answers": [
                 {
                     "problem_id": 2,
+                    "answer": "D"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 3,
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 4,
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 5,
+                    "answer": "A"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 6,
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 7,
+                    "answer": "A"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 8,
+                    "answer": "D"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 9,
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "paper_id": 1,
+            "answers": [
+                {
+                    "problem_id": 10,
                     "answer": "D"
                 }
             ]

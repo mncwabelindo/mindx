@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server --watch physics.json --port 5000",
+    "server": "json-server --watch physics-paper.json --port 5000",
     "dev": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mncwabelindo/mindx/issues"
   },
-  "homepage": "https://github.com/mncwabelindo/mindx#readme"
+  "homepage": "https://github.com/mncwabelindo/mindx#readme",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
 }
