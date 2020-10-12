@@ -15,247 +15,368 @@
     "instructions": [
         "You may use a non-programmable calculator"
     ],
-    "questions": [
+    "sections": [
         {
             "id": 1,
-            "question": 1,
+            "name": "A",
             "type": "MULTIPLE-CHOICE QUESTIONS",
+            "total-points": 20,
             "instruction": "Four options are provided as possible answers to the following questions. Each question has only ONE correct answer. "
+        },
+        {
+            "id": 2,
+            "name": "B",
+            "type": "VARIETY",
+            "total-points": 10,
+            "plot": "Three forces, P, Q and R, of magnitudes 500 N, 200 N and 300 N respectively, act on a point O in the directions shown in the diagram below.\nThe forces are NOT drawn to scale.\n{2Forces.png}"
+        },
+        {
+            "id": 3,
+            "name": "C",
+            "type": "VARIETY",
+            "total-points": 18,
+            "plot": "A constant force, F, pulls a 50 kg block at a constant speed over a rough horizontal surface, AB, as shown in the diagram below. The coefficient of kinetic friction (μk) between the block and the surface is 0,4.\n{3Diagram1.png}"
         }
     ],
     "problems": [
         {
-            "id": 1,
-            "question_id": 1,
-            "number": "1.1",
-            "points": 2,
-            "question": "Vector P and vector –P are acting on a common point O. The angle between the two vectors is ...",
-            "options": {
-                "A": { "value": "`\"0^\"circ` " },
-                "B": { "value": "`\"90^\"circ` " },
-                "C": { "value": "`\"180^\"circ` " },
-                "D": { "value": "`\"270^\"circ` " } 
-            }
+            "section_id": 1,
+            "questions": [
+                {
+                    "number": "1.1",
+                    "points": 2,
+                    "ask": "Vector P and vector –P are acting on a common point O. The angle between the two vectors is ...",
+                    "choices": {
+                        "A": { "value": "`\"0^\"circ` " },
+                        "B": { "value": "`\"90^\"circ` " },
+                        "C": { "value": "`\"180^\"circ` " },
+                        "D": { "value": "`\"270^\"circ` " } 
+                    }
+                },
+                {
+                    "number": "1.2",
+                    "points": 2,
+                    "ask": "The statements below refer to scalars and vectors:\n(i) Vectors can be added together but scalars cannot.\n(ii) A scalar quantity can be associated with direction.\n(iii) A vector quantity is always associated with direction.\nWhich of the statements above are TRUE?",
+                    "choices": {
+                        "A": { "value": "(i) and (ii) only" },
+                        "B": { "value": "(ii) and (iii) only" },
+                        "C": { "value": "(i) only" },
+                        "D": { "value": "(iii) only" } 
+                    }
+                },
+                {
+                    "number": "1.3",
+                    "points": 2,
+                    "ask": "A net force, F, is applied on an object of mass m kg and causes an acceleration of a m∙s-2. When the net force, F, on the same object is doubled, the resulting acceleration, in m∙s-2, will be ...",
+                    "choices": {
+                        "A": { "value": "a" },
+                        "B": { "value": "`\"frac{3}{2}a`" },
+                        "C": { "value": "2a" },
+                        "D": { "value": "3a" } 
+                    }
+                },
+                {
+                    "number": "1.4",
+                    "points": 2,
+                    "ask": "A person stands on a bathroom scale in a stationary elevator. The reading on the scale is 490 N. When the elevator is in motion, the reading on the scale changes to 470 N.\n\nWhich ONE of the following combinations best describes the DIRECTION OF THE MOTION and the DIRECTION OF THE ACCELERATION of the elevator during the motion?",
+                    "choices": {
+                        "H": { "left": "DIRECTION OF THE MOTION", "right": "DIRECTION OF THE" },
+                        "A": { "value1": "Upwards", "value2": "Upwards" },
+                        "B": { "value1": "Downwards", "value2": "Downwards" },
+                        "C": { "value1": "Upwards", "value2": "Downwards and then upwards" },
+                        "D": { "value1": "Downwards", "value2": "Upwards and then downwards" } 
+                    }
+                },
+                {
+                    "number": "1.5",
+                    "points": 2,
+                    "ask": "A light ray is refracted when it travels from air into water. Which ONE of the following combinations relating to the DIRECTION OF THE REFRACTED RAY and the SPEED OF THE LIGHT RAY is CORRECT?",
+                    "choices": {
+                        "H": { "left": "DIRECTION OF THE REFRACTED RAY", "right": "SPEED OF THE LIGHT RAY" },
+                        "A": { "value1": "Towards the normal", "value2": "Decreases" },
+                        "B": { "value1": "Away from the normal", "value2": "Decreases" },
+                        "C": { "value1": "Towards the normal", "value2": "Increases" },
+                        "D": { "value1": "Away from the normal ", "value2": "Increases" } 
+                    }
+                },
+                {
+                    "number": "1.6",
+                    "points": 2,
+                    "ask": "A learner hiding behind an open door of a room can hear people talking outside the room although he cannot see them. The reason for this is that ...",
+                    "choices": {
+                        "A": { "value": "sound has a shorter wavelength than a light wave." },
+                        "B": { "value": "sound has a longer wavelength than a light wave." },
+                        "C": { "value": "light travels in straight lines while sound travels only around corners." },
+                        "D": { "value": "the energy in a sound wave is less than the energy in a light wave." } 
+                    }
+                },
+                {
+                    "number": "1.7",
+                    "points": 2,
+                    "ask": "The leaves of the electroscope in the diagram below are positively charged.\n{electroscope.png}\nWhen an object is brought close to the plate, the leaves diverge more. We can therefore conclude that the object …",
+                    "choices": {
+                        "A": { "value": "is positively charged." },
+                        "B": { "value": "is negatively charged." },
+                        "C": { "value": "is not charged at all." },
+                        "D": { "value": "releases positive charges." } 
+                    }
+                },
+                {
+                    "number": "1.8",
+                    "points": 2,
+                    "ask": "Two charged objects repel each other with a force F when they are separated by a distance d. The distance between the charges is reduced to `\"frac{1}{3}d`.The new force, in terms of F, will now be ...",
+                    "choices": {
+                        "A": { "value": "F" },
+                        "B": { "value": "3F" },
+                        "C": { "value": "6F" },
+                        "D": { "value": "9F" } 
+                    }
+                },
+                {
+                    "number": "1.9",
+                    "points": 2,
+                    "ask": "In the diagram below, the north pole of a bar magnet approaches end A of a solenoid.\n{solenoid.png}\nWhich ONE of the following statements about the polarity of A and the direction of the magnetic field INSIDE the solenoid is CORRECT as the NORTH POLE approaches A?",
+                    "choices": {
+                        "H": { "left": "POLARITY OF A", "right": "DIRECTION OF FIELD IN SOLENOID" },
+                        "A": { "value1": "South pole", "value2": "A to B" },
+                        "B": { "value1": "North pole", "value2": "B to A" },
+                        "C": { "value1": "North pole", "value2": "A to B" },
+                        "D": { "value1": "South pole", "value2": "B to A" } 
+                    }
+                },
+                {
+                    "number": "1.10",
+                    "points": 2,
+                    "ask": "Which ONE of the following graphs best represents the relationship between current and potential difference for a conductor which obeys Ohm's Law?",
+                    "choices": {
+                        "A": { "value": "{1-10A.png}" },
+                        "B": { "value": "{1-10B.png}" },
+                        "C": { "value": "{1-10C.png}" },
+                        "D": { "value": "{1-10D.png}" }  
+                    }
+                }
+            ]
         },
         {
-            "id": 2,
-            "question_id": 1,
-            "number": "1.2",
-            "points": 2,
-            "question": "The statements below refer to scalars and vectors:\n(i) Vectors can be added together but scalars cannot.\n(ii) A scalar quantity can be associated with direction.\n(iii) A vector quantity is always associated with direction.\nWhich of the statements above are TRUE?",
-            "options": {
-                "A": { "value": "(i) and (ii) only" },
-                "B": { "value": "(ii) and (iii) only" },
-                "C": { "value": "(i) only" },
-                "D": { "value": "(iii) only" } 
-            }
+            "section_id": 2,
+            "questions": [
+                {
+                    "number": "2.1",
+                    "points": 2,
+                    "ask": "Refer to the information in the diagram above and give a reason why forces P, Q and R are classified as vectors."
+                },
+                {
+                    "number": "2.2",
+                    "points": 8,
+                    "ask": "Determine the magnitude and direction of the resultant force, either by CALCULATION or by ACCURATE CONSTRUCTION AND MEASUREMENT. (Use scale 10 mm = 50 N.)"
+                }
+            ]
         },
         {
-            "id": 3,
-            "question_id": 1,
-            "number": "1.3",
-            "points": 2,
-            "question": "A net force, F, is applied on an object of mass m kg and causes an acceleration of a m∙s-2. When the net force, F, on the same object is doubled, the resulting acceleration, in m∙s-2, will be ...",
-            "options": {
-                "A": { "value": "a" },
-                "B": { "value": "`\"frac{3}{2}a`" },
-                "C": { "value": "2a" },
-                "D": { "value": "3a" } 
-            }
-        },
-        {
-            "id": 4,
-            "question_id": 1,
-            "number": "1.4",
-            "points": 2,
-            "question": "A person stands on a bathroom scale in a stationary elevator. The reading on the scale is 490 N. When the elevator is in motion, the reading on the scale changes to 470 N.\n\nWhich ONE of the following combinations best describes the DIRECTION OF THE MOTION and the DIRECTION OF THE ACCELERATION of the elevator during the motion?",
-            "options": {
-                "H": { "left": "DIRECTION OF THE MOTION", "right": "DIRECTION OF THE" },
-                "A": { "value1": "Upwards", "value2": "Upwards" },
-                "B": { "value1": "Downwards", "value2": "Downwards" },
-                "C": { "value1": "Upwards", "value2": "Downwards and then upwards" },
-                "D": { "value1": "Downwards", "value2": "Upwards and then downwards" } 
-            }
-        },
-        {
-            "id": 5,
-            "question_id": 1,
-            "number": "1.5",
-            "points": 2,
-            "question": "A light ray is refracted when it travels from air into water. Which ONE of the following combinations relating to the DIRECTION OF THE REFRACTED RAY and the SPEED OF THE LIGHT RAY is CORRECT?",
-            "options": {
-                "H": { "left": "DIRECTION OF THE REFRACTED RAY", "right": "SPEED OF THE LIGHT RAY" },
-                "A": { "value1": "Towards the normal", "value2": "Decreases" },
-                "B": { "value1": "Away from the normal", "value2": "Decreases" },
-                "C": { "value1": "Towards the normal", "value2": "Increases" },
-                "D": { "value1": "Away from the normal ", "value2": "Increases" } 
-            }
-        },
-        {
-            "id": 6,
-            "question_id": 1,
-            "number": "1.6",
-            "points": 2,
-            "question": "A learner hiding behind an open door of a room can hear people talking outside the room although he cannot see them. The reason for this is that ...",
-            "options": {
-                "A": { "value": "sound has a shorter wavelength than a light wave." },
-                "B": { "value": "sound has a longer wavelength than a light wave." },
-                "C": { "value": "light travels in straight lines while sound travels only around corners." },
-                "D": { "value": "the energy in a sound wave is less than the energy in a light wave." } 
-            }
-        },
-        {
-            "id": 7,
-            "question_id": 1,
-            "number": "1.7",
-            "points": 2,
-            "question": "The leaves of the electroscope in the diagram below are positively charged.\n{electroscope.png}\nWhen an object is brought close to the plate, the leaves diverge more. We can therefore conclude that the object …",
-            "options": {
-                "A": { "value": "is positively charged." },
-                "B": { "value": "is negatively charged." },
-                "C": { "value": "is not charged at all." },
-                "D": { "value": "releases positive charges." } 
-            }
-        },
-        {
-            "id": 8,
-            "question_id": 1,
-            "number": "1.8",
-            "points": 2,
-            "question": "Two charged objects repel each other with a force F when they are separated by a distance d. The distance between the charges is reduced to `\"frac{1}{3}d`.The new force, in terms of F, will now be ...",
-            "options": {
-                "A": { "value": "F" },
-                "B": { "value": "3F" },
-                "C": { "value": "6F" },
-                "D": { "value": "9F" } 
-            }
-        },
-        {
-            "id": 9,
-            "question_id": 1,
-            "number": "1.9",
-            "points": 2,
-            "question": "In the diagram below, the north pole of a bar magnet approaches end A of a solenoid.\n{solenoid.png}\nWhich ONE of the following statements about the polarity of A and the direction of the magnetic field INSIDE the solenoid is CORRECT as the NORTH POLE approaches A?",
-            "options": {
-                "H": { "left": "POLARITY OF A", "right": "DIRECTION OF FIELD IN SOLENOID" },
-                "A": { "value1": "South pole", "value2": "A to B" },
-                "B": { "value1": "North pole", "value2": "B to A" },
-                "C": { "value1": "North pole", "value2": "A to B" },
-                "D": { "value1": "South pole", "value2": "B to A" } 
-            }
-        },
-        {
-            "id": 10,
-            "question_id": 1,
-            "number": "1.10",
-            "points": 2,
-            "question": "Which ONE of the following graphs best represents the relationship between current and potential difference for a conductor which obeys Ohm's Law?",
-            "options": {
-                "A": { "value": "{1-10A.png}" },
-                "B": { "value": "{1-10B.png}" },
-                "C": { "value": "{1-10C.png}" },
-                "D": { "value": "{1-10D.png}" }  
-            }
+            "section_id": 3,
+            "questions": [
+                {
+                    "number": "3.1",
+                    "points": 4,
+                    "ask": "Draw a labelled free-body diagram showing ALL the forces acting on the block."
+                },
+                {
+                    "number": "3.2",
+                    "points": 2,
+                    "ask": "State Newton's first law of motion in words."
+                },
+                {
+                    "number": "3.3",
+                    "points": 6,
+                    "ask": "Calculate the magnitude of the Force F"
+                },
+                {
+                    "number": "3.4",
+                    "points": 2,
+                    "ask": "Calculate the magnitude of the Normal force"
+                },
+                {
+                    "number": "3.5",
+                    "points": 2,
+                    "ask": "Calculate the magnitude of the Frictional force"
+                },
+                {
+                    "number": "3.6",
+                    "points": 2,
+                    "ask": "The same constant force, F, is now applied to the block over the same rough horizontal surface as before, but in the direction shown below.\n{3Diagram2.png}\n\nGive a reason why the block will move slower than before"
+                }
+            ]
         }
     ],
     "memo": [
+        
         {
-            "id": 1,
-            "paper_id": 1,
+            "section_id": 1,
             "answers": [
                 {
-                    "problem_id": 1,
-                    "answer": "C"
+                    "key": "1.1",
+                    "value": {
+                        "text": "C",
+                        "entries": []
+                    }  
+                },
+                {
+                    "key": "1.2",
+                    "value": {
+                        "text": "D",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.3",
+                    "value": {
+                        "text": "C",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.4",
+                    "value": {
+                        "text": "B",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.5",
+                    "value": {
+                        "text": "A",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.6",
+                    "value": {
+                        "text": "B",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.7",
+                    "value": {
+                        "text": "A",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.8",
+                    "value": {
+                        "text": "D",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.9",
+                    "value": {
+                        "text": "B",
+                        "entries": []
+                    }
+                },
+                {
+                    "key": "1.10",
+                    "value": {
+                        "text": "D",
+                        "entries": []
+                    }
                 }
             ]
         },
         {
-            "id": 1,
-            "paper_id": 1,
+            "section_id": 2,
             "answers": [
                 {
-                    "problem_id": 2,
-                    "answer": "D"
+                    "key": "2.1",
+                    "value": {
+                        "text": "Each of them has magnitude and direction", 
+                        "entries": []
+                    },
+                    "notes": [
+                        "NOTE: 1 mark for: they have arrows or any similar statement",
+                        "ACCEPT: They have magnitude and arrows indicating direction for 2 marks" 
+                    ]
+                },
+                {
+                    "key": "2.2",
+                    "value": {
+                        "text": null, 
+                        "entries": [ 
+                            "{2-2Line1.png}",
+                            "{2-2Line2.png}",
+                            "{2-2Line3.png}",
+                            "{2-2Line4.png}",
+                            "{2-2Line5.png}",
+                            "{2-2Drawing.png}"
+                        ]
+                    },
+                    "notes": [
+                        "{2-2Note.png}"
+                    ]
                 }
             ]
         },
         {
-            "id": 1,
-            "paper_id": 1,
+            "section_id": 3,
             "answers": [
                 {
-                    "problem_id": 3,
-                    "answer": "C"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
+                    "key": "3.1",
+                    "value": {
+                        "text": null, 
+                        "entries": [ 
+                            "{3-1Diagram.png}"
+                        ]
+                    },
+                    "notes": []
+                },
                 {
-                    "problem_id": 4,
-                    "answer": "B"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
+                    "key": "3.2",
+                    "value": {
+                        "text": "A body will remain in its state of rest or motion at constant velocity unless anon-zero resultant/net force acts on it.", 
+                        "entries": []
+                    },
+                    "notes": []
+                },
                 {
-                    "problem_id": 5,
-                    "answer": "A"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
+                    "key": "3.3",
+                    "value": {
+                        "text": null, 
+                        "entries": [ 
+                            "{3-3Line1.png}",
+                            "{3-3Line2.png}"
+                        ]
+                    },
+                    "notes": []
+                },
                 {
-                    "problem_id": 6,
-                    "answer": "B"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
+                    "key": "3.4",
+                    "value": {
+                        "text": null, 
+                        "entries": [ 
+                            "{3-4Line.png}"
+                        ]
+                    },
+                    "notes": []
+                },
                 {
-                    "problem_id": 7,
-                    "answer": "A"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
+                    "key": "3.5",
+                    "value": {
+                        "text": null, 
+                        "entries": [ 
+                            "{3-5Line.png}"
+                        ]
+                    },
+                    "notes": []
+                },
                 {
-                    "problem_id": 8,
-                    "answer": "D"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
-                {
-                    "problem_id": 9,
-                    "answer": "B"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "paper_id": 1,
-            "answers": [
-                {
-                    "problem_id": 10,
-                    "answer": "D"
+                    "key": "3.6",
+                    "value": {
+                        "text": "The normal force increases, hence the frictional force increases, making it harder to move the object forward.", 
+                        "entries": []
+                    },
+                    "notes": []
                 }
             ]
         }
